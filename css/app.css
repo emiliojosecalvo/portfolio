@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    height: 750px;
+    
+}
+
+.title {
+    
+    margin: 250px auto;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+
+#mycanvas {
+    position: absolute;
+    display: inline;
+}
