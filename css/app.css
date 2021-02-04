@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(241, 241, 241);
 }
 
 .header {
@@ -16,8 +17,28 @@ body {
     
     margin: 250px auto;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
+}
+
+.cont {
+    margin: 6rem auto;
+    text-align: center;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+.cont img {
+    min-width: 125px;
+    width: 15%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+
+}
+
+.cont img:hover {
+    transform: scale(1.10);
+    transition: transform 0.5s;
 }
 
 
@@ -25,3 +46,31 @@ body {
     position: absolute;
     display: inline;
 }
+
+/* Scroll animation */
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 2s;
+}
+/* add hidden to add animation */
+.hidden {
+    opacity: 0;
+  }
+
+
+
+  @media (max-width: 576px) {
+      .cont {
+          width: 100%;
+      }
+      .cont img {
+          min-width: 0;
+          width: 30%;
+      }
+      .title {
+          font-size: 1.5rem;
+      }
+  }
