@@ -135,4 +135,15 @@ font-weight: 700;
       }
   }
 
+  @media (min-width: 577px) and (max-width: 992px) {
+    .card {
+      width: 40%;
+    }
+  }
+  @media (min-width: 993px) {
+    .card {
+      width: 30%;
+    }
+  }
+
   
