@@ -107,11 +107,7 @@ font-weight: 700;
     opacity: 0;
   }
 
-  @media screen and (max-width: 1000px) {
-    .card {
-      width: 40%;
-    }
-  }
+  
 
   @media (max-width: 576px) {
       .cont {
