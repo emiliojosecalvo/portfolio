@@ -13,8 +13,7 @@ body {
     
 }
 
-.title {
-    
+.title {    
     margin: 250px auto;
     text-align: center;
     font-size: 1.8rem;
@@ -28,7 +27,7 @@ body {
     font-size: 1.5rem;
 }
 
-.cont img {
+.icons {
     min-width: 125px;
     width: 15%;
     margin-right: 2.5%;
@@ -36,11 +35,14 @@ body {
 
 }
 
-.cont img:hover {
+.icons:hover {
     transform: scale(1.10);
     transition: transform 0.5s;
 }
 
+.miniweb {
+    display: inline-block;
+}
 
 #mycanvas {
     position: absolute;
