@@ -86,14 +86,7 @@ font-weight: 700;
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .card {
-      width: 40%;
-    }
-  }
-  
+  }  
   /* end card */
 
 #mycanvas {
@@ -113,8 +106,6 @@ font-weight: 700;
 .hidden {
     opacity: 0;
   }
-
-
 
   @media (max-width: 576px) {
       .cont {
@@ -140,4 +131,10 @@ font-weight: 700;
       .card {
         width: 80%;
       }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
   }
