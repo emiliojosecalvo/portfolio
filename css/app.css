@@ -89,6 +89,26 @@ font-weight: 700;
   }  
   /* end card */
 
+  .icon {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .icon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  } 
+
+  .footer {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
 #mycanvas {
     position: absolute;
     display: inline;
@@ -106,8 +126,6 @@ font-weight: 700;
 .hidden {
     opacity: 0;
   }
-
-  
 
   @media (max-width: 576px) {
       .cont {
