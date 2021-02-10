@@ -135,7 +135,7 @@ font-weight: 700;
 
   @media (max-width: 576px) {
       .cont {
-          width: 100%;
+          width: 90%;
       }
       .icons {
           min-width: 0;
