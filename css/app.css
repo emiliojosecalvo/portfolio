@@ -109,6 +109,12 @@ font-weight: 700;
     font-size: 1.5rem;
   }
 
+  /* title */
+  .typewrite > .wrap { 
+    color:white;
+    border-right: 0.08em solid #fff
+  }
+
 #mycanvas {
     position: absolute;
     display: inline;
