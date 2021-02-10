@@ -66,7 +66,7 @@ body {
     font-size: 18px;
   }
 
-  .card-body span {
+span {
 font-weight: 700;
   }
 
@@ -151,11 +151,17 @@ font-weight: 700;
       .card {
         width: 100%;
       }
+      #tap {
+        display: none;
+      }
   }
 
   @media (min-width: 577px) and (max-width: 992px) {
     .card {
       width: 40%;
+    }
+    #tap {
+      display: none;
     }
   }
   @media (min-width: 993px) {
