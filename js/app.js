@@ -29,7 +29,7 @@
 })();
 
 // title
-const TxtType = function (el, toRotate, period) {
+var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
@@ -40,8 +40,8 @@ const TxtType = function (el, toRotate, period) {
 };
 
 TxtType.prototype.tick = function () {
-    const i = this.loopNum % this.toRotate.length;
-    const fullTxt = this.toRotate[i];
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
 
     if (this.isDeleting) {
         this.txt = fullTxt.substring(0, this.txt.length - 1);
