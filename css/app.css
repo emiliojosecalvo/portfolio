@@ -2,43 +2,57 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(234, 255, 230);
+    background-color: #fff;
+color: #000;
 }
 
-.header {
-    position: relative;
-    overflow: hidden;
-    color: white;
-    height: 750px;
-    
+.container {
+width: 970px;
+margin: auto;
 }
 
-.title {    
-    margin: 250px auto;
-    text-align: center;
-    font-size: 1.8rem;
+/* title */
+  .typewrite > .wrap { 
+    border-right: 0.08em solid #fff;
+  }
 
-}
-
-.cont {
-    margin: 6rem auto;
-    text-align: center;
-    width: 70%;
+.title {   
+padding: 2px 15px;
+margin-top: 20px;
+color: #e7ecef; 
     font-size: 1.5rem;
+background-color: rgba(24, 49, 79, 0.7);
 }
+
+.main {
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.bgwhite {
+background-image: none;
+color: black;
+}
+
+/* add hidden to add animation */
+.hidden {
+    opacity: 0;
+  }
+
 
 .icons {
     min-width: 125px;
     width: 15%;
     margin-right: 2.5%;
     margin-left: 2.5%;
-
 }
 
 .icons:hover {
     transform: scale(1.10);
     transition: transform 0.5s;
 }
+
 /* cards */
 .row {
     display: flex;
@@ -56,9 +70,6 @@ body {
   }
   .card-header {
     text-align: center;
-    /* padding: 50px 10px; */
-    /* background: linear-gradient(to right, #ff416c, #ff4b2b); */
-    /* color: #fff; */
   }
   .card-body {
     padding: 30px 20px;
@@ -77,7 +88,7 @@ font-weight: 700;
     display: block;
     color: #000;
     text-align: center;
-    background: linear-gradient(to right, #98d699, #126b09);
+    background: linear-gradient(to right, #fff, #18314f);
     margin-top: 30px;
     text-decoration: none;
     padding: 10px 5px;
@@ -109,17 +120,6 @@ font-weight: 700;
     font-size: 1.5rem;
   }
 
-  /* title */
-  .typewrite > .wrap { 
-    color:white;
-    border-right: 0.08em solid #fff
-  }
-
-#mycanvas {
-    position: absolute;
-    display: inline;
-}
-
 /* Scroll animation */
 @keyframes fade-in {
     from {opacity: 0; transform: scale(.7,.7)}
@@ -128,28 +128,20 @@ font-weight: 700;
 .fade-in-element {
   animation: fade-in 2s;
 }
-/* add hidden to add animation */
-.hidden {
-    opacity: 0;
-  }
 
-  @media (max-width: 576px) {
-      .cont {
-          width: 90%;
-      }
+  @media (max-width: 767px) {
+.container {
+width: 100%;
+font-size: 1.1;
+}
       .icons {
           min-width: 0;
           width: 30%;
       }
       .title {
-          font-size: 1.5rem;
+          font-size: 1.3rem; 
       }
-
-      .container {
-        width: 100%;
-      }
-    
-      .heading {
+     .heading {
         padding: 20px;
         font-size: 20px;
       }
@@ -162,18 +154,13 @@ font-weight: 700;
       }
   }
 
-  @media (min-width: 577px) and (max-width: 992px) {
-    .card {
-      width: 40%;
-    }
-    #tap {
-      display: none;
-    }
-  }
-  @media (min-width: 993px) {
-    .card {
-      width: 30%;
-    }
-  }
+  @media (min-width: 768px) and (max-width: 992px) {
 
-  
+.container {
+width: 90%;
+}
+
+.card {
+        width: 40%;
+      }
+     }  
