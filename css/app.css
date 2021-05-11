@@ -53,6 +53,11 @@ color: black;
     transition: transform 0.5s;
 }
 
+ #contact .icons {
+min-width: 50px;
+    width: 10%;
+  }
+
 /* cards */
 .row {
     display: flex;
@@ -99,19 +104,7 @@ font-weight: 700;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   }  
   /* end card */
-
-  .icon {
-    width: 5rem;
-    height: 5rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-  }
-
-  .icon:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-  } 
-
+  
   .footer {
     margin: 0 auto;
     width: 50%;
@@ -143,7 +136,9 @@ font-weight: 700;
     }
     .icons {
         min-width: 0;
+        width: 20%;
     }
+  #contact .icons {min-width: 0;width: 10%}
     .card {
       width: 100%;
     }
