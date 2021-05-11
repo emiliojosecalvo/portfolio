@@ -130,37 +130,31 @@ font-weight: 700;
 }
 
   @media (max-width: 767px) {
-.container {
-width: 100%;
-font-size: 1.1;
+    .container {
+      width: 100%;
+    }
+    .title {
+      font-size: 1em; 
+      background-color: rgba(24, 49, 79, 0.2);
+      color: #828385; 
+    }
+    .main {
+      font-size: 1em;
+    }
+    .icons {
+        min-width: 0;
+    }
+    .card {
+      width: 100%;
+    }
 }
-      .icons {
-          min-width: 0;
-          width: 30%;
-      }
-      .title {
-          font-size: 1.3rem; 
-      }
-     .heading {
-        padding: 20px;
-        font-size: 20px;
-      }
-    
-      .card {
-        width: 100%;
-      }
-      #tap {
-        display: none;
-      }
-  }
 
   @media (min-width: 768px) and (max-width: 992px) {
+    .container {
+      width: 90%;
+    }
 
-.container {
-width: 90%;
-}
-
-.card {
-        width: 40%;
-      }
-     }  
+    .card {
+      width: 40%;
+    }
+  }  
