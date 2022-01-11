@@ -7,7 +7,7 @@ color: #000;
 }
 
 .container {
-width: 970px;
+max-width: 970px;
 margin: auto;
 }
 
@@ -17,11 +17,11 @@ margin: auto;
   }
 
 .title {   
-padding: 2px 15px;
-margin-top: 20px;
-color: #e7ecef; 
-    font-size: 1.5rem;
-background-color: rgba(24, 49, 79, 0.7);
+  padding: 2px 15px;
+  margin-top: 20px;
+  color: #e7ecef; 
+  font-size: 1.5rem;
+  background-color: #606f49;
 }
 
 .main {
@@ -128,7 +128,7 @@ font-weight: 700;
     }
     .title {
       font-size: 1em; 
-      background-color: rgba(24, 49, 79, 0.2);
+      background-color: #cfe1b9;
       color: #828385; 
     }
     .main {
